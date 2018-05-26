@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-starter-reason",
+  "description": "A Gatsby starter for writing your site in ReasonML",
+  "version": "0.1.0-alpha.1",
+  "author": "Jeremy Berglund",
+  "dependencies": {
+    "bs-platform": "^3.0.0",
+    "gatsby": "^1.9.247",
+    "gatsby-link": "^1.6.40",
+    "gatsby-link-reason": "^1.0.0-rc.1",
+    "gatsby-plugin-react-helmet": "^2.0.10",
+    "gatsby-plugin-reason": "^0.1.0-rc.3",
+    "react-helmet": "^5.2.0",
+    "reason-react": "^0.4.2"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-starter",
+    "starter",
+    "reason",
+    "reasonml"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  }
+}
