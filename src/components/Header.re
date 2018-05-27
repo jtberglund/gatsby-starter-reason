@@ -1,7 +1,5 @@
 let component = ReasonReact.statelessComponent("Header");
 
-let text = ReasonReact.string;
-
 let make = (~siteTitle: string, _children) => {
   ...component,
   render: _self =>
@@ -28,13 +26,9 @@ let make = (~siteTitle: string, _children) => {
             style=(
               ReactDOMRe.Style.make(~color="white", ~textDecoration="none", ())
             )>
-            (text(siteTitle))
+            (ReasonReact.string(siteTitle))
           </GatsbyLink>
         </h1>
       </div>
     </div>
 };
-/* let default =
-   ReasonReact.wrapReasonForJs(~component, jsProps =>
-     make(jsProps##siteTitle, jsProps##children)
-   ); */

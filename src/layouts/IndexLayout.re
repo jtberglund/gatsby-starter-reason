@@ -2,15 +2,9 @@ let component = ReasonReact.statelessComponent("IndexLayout");
 
 type data = {. "site": {. "siteMetadata": {. "title": string}}};
 
-[@bs.deriving abstract]
-type metaField = {
-  name: string,
-  content: string
-};
-
 let meta = [|
-  metaField(~name="description", ~content="Sample"),
-  metaField(~name="keywords", ~content="sample, something")
+  Helmet.metaField(~name="description", ~content="Sample"),
+  Helmet.metaField(~name="keywords", ~content="sample, something")
 |];
 
 let make = (data: data, children) => {
