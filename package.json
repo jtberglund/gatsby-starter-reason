@@ -7,7 +7,7 @@
     "bs-platform": "^3.0.0",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
-    "gatsby-link-reason": "^1.0.0",
+    "gatsby-link-reason": "^1.0.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-reason": "^0.1.0-rc.3",
     "react-helmet": "^5.2.0",

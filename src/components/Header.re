@@ -2,7 +2,7 @@ let component = ReasonReact.statelessComponent("Header");
 
 let text = ReasonReact.string;
 
-let make = (siteTitle: string, _children) => {
+let make = (~siteTitle: string, _children) => {
   ...component,
   render: _self =>
     <div
@@ -34,8 +34,7 @@ let make = (siteTitle: string, _children) => {
       </div>
     </div>
 };
-
-let default =
-  ReasonReact.wrapReasonForJs(~component, jsProps =>
-    make(jsProps##siteTitle, jsProps##children)
-  );
+/* let default =
+   ReasonReact.wrapReasonForJs(~component, jsProps =>
+     make(jsProps##siteTitle, jsProps##children)
+   ); */
