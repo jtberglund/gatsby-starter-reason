@@ -1,4 +1,4 @@
-let component = ReasonReact.statelessComponent("NotFound");
+let component = ReasonReact.statelessComponent("404");
 
 let text = ReasonReact.string;
 

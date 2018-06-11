@@ -1,4 +1,4 @@
-let component = ReasonReact.statelessComponent("Page2");
+let component = ReasonReact.statelessComponent("page-2");
 
 let text = ReasonReact.string;
 
