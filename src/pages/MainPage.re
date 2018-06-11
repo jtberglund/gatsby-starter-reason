@@ -1,4 +1,4 @@
-let component = ReasonReact.statelessComponent("Index");
+let component = ReasonReact.statelessComponent("index");
 
 let text = ReasonReact.string;
 
@@ -9,7 +9,7 @@ let make = _children => {
       <h1> (text("Hi people")) </h1>
       <p> (text("Welcome to your new Gatsby site.")) </p>
       <p> (text("Now go build something great.")) </p>
-      <GatsbyLink to_="/page_2/"> (text("Go to page 2")) </GatsbyLink>
+      <GatsbyLink to_="/page-2/"> (text("Go to page 2")) </GatsbyLink>
     </div>
 };
 

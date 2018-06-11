@@ -5,21 +5,15 @@
   "author": "Jeremy Berglund",
   "dependencies": {
     "bs-platform": "^3.0.0",
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-link-reason": "^1.0.1",
+    "gatsby": "^1.9.270",
+    "gatsby-link": "^1.6.44",
+    "gatsby-link-reason": "^1.0.3",
     "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-reason": "^0.1.0-rc.3",
+    "gatsby-plugin-reason": "^1.1.0",
     "react-helmet": "^5.2.0",
     "reason-react": "^0.4.2"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "starter",
-    "reason",
-    "reasonml"
-  ],
+  "keywords": ["gatsby", "gatsby-starter", "starter", "reason", "reasonml"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
