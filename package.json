@@ -13,13 +13,10 @@
     "react-helmet": "^5.2.0",
     "reason-react": "^0.5.3"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "starter",
-    "reason",
-    "reasonml"
-  ],
+  "repository": {
+    "url": "https://github.com/jtberglund/gatsby-starter-reason"
+  },
+  "keywords": ["gatsby", "gatsby-starter", "starter", "reason", "reasonml"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
