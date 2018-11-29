@@ -1,16 +1,23 @@
 import './index.css'
 
 import IndexLayout from './IndexLayout.re'
-import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
 
-export default IndexLayout
-
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
+export default (children) => (
+  <StaticQuery
+    query={graphql`
+      query SiteTitleQuery {
+        site {
+          siteMetadata {
+            title
+          }
+        }
       }
-    }
-  }
-`
+    `}
+    render={(data) => (
+      <IndexLayout {...data}>
+        {children}
+      </IndexLayout>
+    )}
+  />
+)
