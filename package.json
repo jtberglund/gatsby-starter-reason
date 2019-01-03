@@ -4,19 +4,27 @@
   "version": "0.1.0",
   "author": "Jeremy Berglund",
   "dependencies": {
-    "bs-platform": "^4.0.2",
-    "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.44",
-    "gatsby-link-reason": "^1.1.0",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-reason": "^1.3.0",
+    "bs-platform": "^4.0.7",
+    "gatsby": "^2.0.45",
+    "gatsby-link": "^2.0.6",
+    "gatsby-link-reason": "^2.0.0",
+    "gatsby-plugin-react-helmet": "^3.0.1",
+    "gatsby-plugin-reason": "^2.0.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
     "react-helmet": "^5.2.0",
     "reason-react": "^0.5.3"
   },
   "repository": {
     "url": "https://github.com/jtberglund/gatsby-starter-reason"
   },
-  "keywords": ["gatsby", "gatsby-starter", "starter", "reason", "reasonml"],
+  "keywords": [
+    "gatsby",
+    "gatsby-starter",
+    "starter",
+    "reason",
+    "reasonml"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

@@ -10,7 +10,7 @@ let make = _children => {
       <p>
         (text("You just hit a route that doesn't exist... the sadness."))
       </p>
-    </div>
+    </div>,
 };
 
 let default =
